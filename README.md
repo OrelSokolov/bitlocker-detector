@@ -36,7 +36,12 @@ target/release/bitlocker-detector
 - ⚠️ Always use the raw disk (e.g. /dev/nvme0n1), not a partition.
 
 ```
-sudo ./target/release/bitlocker-detect /dev/nvme0n1
+sudo ./target/release/bitlocker-detector /dev/nvme0n1
+
+Optional flags:
+
+- `--show-size` — print the total amount scanned (MB) at the end
+- `--help` — show usage information
 
 Example output:
 
