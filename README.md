@@ -36,7 +36,7 @@ target/release/bitlocker-detector
 - ⚠️ Always use the raw disk (e.g. /dev/nvme0n1), not a partition.
 
 ```
-sudo ./target/release/bitlocker-detect /dev/nvme0n1 | tee fve_offsets.txt
+sudo ./target/release/bitlocker-detect /dev/nvme0n1
 
 Example output:
 
